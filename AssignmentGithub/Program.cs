@@ -13,8 +13,11 @@ namespace AssignmentGithub
         {
             Console.WriteLine("HEllo world");
             Console.WriteLine("First Commit");
-            
-            
+            Employee e = new Employee(11, "Harshal");
+            e.showName();
+            e.showId();
+            Console.ReadLine();
+
         }
     }
 }
