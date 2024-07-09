@@ -11,6 +11,7 @@ namespace AssignmentGithub
         static void Main(string[] args)
         {
             Console.WriteLine("HEllo world");
+            Console.WriteLine("First Commit");
         }
     }
 }
