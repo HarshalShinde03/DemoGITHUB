@@ -16,10 +16,15 @@ namespace AssignmentGithub
             _empname = empname;
         }
 
-        public void show()
+        public void showName()
+        {
+            
+            Console.WriteLine(_empname);
+        }
+
+        public void showId()
         {
             Console.WriteLine(_empid);
-            Console.WriteLine(_empname);
         }
     }
 }
